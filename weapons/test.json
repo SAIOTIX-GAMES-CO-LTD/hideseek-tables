@@ -2,9 +2,9 @@
   "schema": 1,
   "table": "weapons",
   "channel": "test",
-  "version": 2,
+  "version": 4,
   "rows": [
     {"WeaponID": "bruum", "MagazineSize": 26, "ReserveAmmo": 200},
-    {"WeaponID": "rifle", "MagazineSize": 28, "ReserveAmmo": 220}
+    {"WeaponID": "rifle", "MagazineSize": 29, "ReserveAmmo": 215}
   ]
 }

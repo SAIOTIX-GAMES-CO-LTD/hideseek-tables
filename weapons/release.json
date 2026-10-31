@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "table": "weapons",
+  "channel": "release",
+  "version": 1,
+  "rows": [
+    {"WeaponID": "bruum", "MagazineSize": 30, "ReserveAmmo": 240},
+    {"WeaponID": "rifle", "MagazineSize": 30, "ReserveAmmo": 240}
+  ]
+}

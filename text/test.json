@@ -2,11 +2,11 @@
   "schema": 1,
   "table": "text",
   "channel": "test",
-  "version": 2,
+  "version": 3,
   "languages": {
     "en": {
       "menu.tagline": "Prop hunt · medieval market",
-      "menu.create": "Create game2",
+      "menu.create": "Create game",
       "menu.join": "Join",
       "menu.invite": "Invite friends",
       "menu.settings": "Settings",

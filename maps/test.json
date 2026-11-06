@@ -2,9 +2,9 @@
   "schema": 1,
   "table": "maps",
   "channel": "test",
-  "version": 1,
+  "version": 2,
   "rows": [
-    {"MapID": 1001, "MapName": "map.borgo_italia.name", "MapDesc": "map.borgo_italia.desc", "MapResource": "BorgoItalia_v2", "IsEnabled": 1},
-    {"MapID": 1002, "MapName": "map.gray_map.name", "MapDesc": "", "MapResource": "GrayMap", "IsEnabled": 0}
+    {"MapID": 1001, "MapName": "MAP_001", "MapDesc": "MAPDESC_001", "MapResource": "BorgoItalia_v2", "IsEnabled": 1},
+    {"MapID": 1002, "MapName": "MAP_002", "MapDesc": "", "MapResource": "GrayMap", "IsEnabled": 0}
   ]
 }

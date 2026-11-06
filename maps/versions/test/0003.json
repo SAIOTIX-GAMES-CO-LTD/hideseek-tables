@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "table": "maps",
+  "channel": "test",
+  "version": 3,
+  "rows": [
+    {"MapID": 1001, "MapName": "MAP_001", "MapDesc": "MAPDESC_001", "MapResource": "BorgoItalia_v3", "IsEnabled": 1},
+    {"MapID": 1002, "MapName": "MAP_002", "MapDesc": "", "MapResource": "GrayMap", "IsEnabled": 0}
+  ]
+}

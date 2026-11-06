@@ -2,7 +2,7 @@
   "schema": 1,
   "table": "text",
   "channel": "test",
-  "version": 5,
+  "version": 6,
   "languages": {
     "en": {
       "menu.tagline": "Prop hunt · medieval market",
@@ -38,12 +38,12 @@
       "lobby.blocked.needTwo": "At least two players are needed to start",
       "lobby.blocked.needBoth": "Each side needs at least one player",
       "lobby.waitingHost": "Waiting for the host to start the match…",
-      "lobby.start.preparing": "Checking the weapon tables…",
-      "lobby.start.confirming": "Waiting for the players to take the weapon tables…",
+      "lobby.start.preparing": "Checking the weapon and map tables…",
+      "lobby.start.confirming": "Waiting for the players to take the tables…",
       "lobby.start.refused.notReady": "Match not started: {detail}",
-      "lobby.start.refused.noTables": "Match not started: no weapon tables — {detail}",
-      "lobby.start.refused.declined": "Match not started: weapon tables declined — {detail}",
-      "lobby.start.refused.noAnswer": "Match not started: no answer about the weapon tables — {detail}",
+      "lobby.start.refused.noTables": "Match not started: no tables — {detail}",
+      "lobby.start.refused.declined": "Match not started: tables declined — {detail}",
+      "lobby.start.refused.noAnswer": "Match not started: no answer about the tables — {detail}",
       "lobby.preparationFailed.map": "Match cancelled: the round map could not be built. Start it again.",
       "lobby.preparationFailed.spawn": "Match cancelled: no safe spawn points for the players on the map. Start it again.",
       "lobby.preparationFailed.timeout": "Match cancelled: the round took too long to get ready. Start it again.",
@@ -705,7 +705,11 @@
       "seekerHud.notify.propDamage": "Prop damage",
       "seekerHud.notify.propDestroy": "Prop destroyed",
       "seekerHud.notify.bodyDamage": "Body damage",
-      "seekerHud.notify.kill": "Final elimination"
+      "seekerHud.notify.kill": "Final elimination",
+      "COMMON_005": "Match not started: no usable map — {detail}",
+      "MAP_001": "Borgo Italia",
+      "MAP_002": "Gray map",
+      "MAPDESC_001": "An old Italian town: narrow streets, courtyards and a market square."
     },
     "ko": {
       "menu.tagline": "",
@@ -1408,7 +1412,11 @@
       "seekerHud.notify.propDamage": "",
       "seekerHud.notify.propDestroy": "",
       "seekerHud.notify.bodyDamage": "",
-      "seekerHud.notify.kill": ""
+      "seekerHud.notify.kill": "",
+      "COMMON_005": "매치가 시작되지 않았습니다: 사용할 수 있는 맵이 없습니다 — {detail}",
+      "MAP_001": "보르고 이탈리아",
+      "MAP_002": "회색 맵",
+      "MAPDESC_001": "오래된 이탈리아 마을: 좁은 골목, 안뜰, 시장 광장."
     },
     "ru": {
       "menu.tagline": "Прятки предметов · средневековый рынок",
@@ -1444,12 +1452,12 @@
       "lobby.blocked.needTwo": "Для старта нужно хотя бы двое игроков",
       "lobby.blocked.needBoth": "На каждой стороне нужен хотя бы один игрок",
       "lobby.waitingHost": "Ждём, когда хост начнёт матч…",
-      "lobby.start.preparing": "Проверяю таблицы оружия…",
-      "lobby.start.confirming": "Жду, пока игроки примут таблицы оружия…",
+      "lobby.start.preparing": "Проверяю таблицы оружия и карт…",
+      "lobby.start.confirming": "Жду, пока игроки примут таблицы…",
       "lobby.start.refused.notReady": "Матч не начат: {detail}",
-      "lobby.start.refused.noTables": "Матч не начат: нет таблиц оружия — {detail}",
-      "lobby.start.refused.declined": "Матч не начат: таблицы оружия не приняли — {detail}",
-      "lobby.start.refused.noAnswer": "Матч не начат: нет ответа о таблицах оружия — {detail}",
+      "lobby.start.refused.noTables": "Матч не начат: нет таблиц — {detail}",
+      "lobby.start.refused.declined": "Матч не начат: таблицы не приняли — {detail}",
+      "lobby.start.refused.noAnswer": "Матч не начат: нет ответа о таблицах — {detail}",
       "lobby.preparationFailed.map": "Матч отменён: не удалось собрать карту раунда. Запустите его снова.",
       "lobby.preparationFailed.spawn": "Матч отменён: на карте не нашлось безопасных мест для появления игроков. Запустите его снова.",
       "lobby.preparationFailed.timeout": "Матч отменён: подготовка раунда заняла слишком много времени. Запустите его снова.",
@@ -2111,7 +2119,11 @@
       "seekerHud.notify.propDamage": "Урон по пропам",
       "seekerHud.notify.propDestroy": "Разрушение пропа",
       "seekerHud.notify.bodyDamage": "Урон по телу",
-      "seekerHud.notify.kill": "Окончательное устранение"
+      "seekerHud.notify.kill": "Окончательное устранение",
+      "COMMON_005": "Матч не начат: нет годной карты — {detail}",
+      "MAP_001": "Борго Италия",
+      "MAP_002": "Серая карта",
+      "MAPDESC_001": "Старый итальянский городок: узкие улочки, дворики и площадь с рынком."
     }
   }
 }

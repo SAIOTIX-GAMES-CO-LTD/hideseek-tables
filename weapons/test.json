@@ -1,10 +1,10 @@
 {
-  "schema": 1,
+  "schema": 2,
   "table": "weapons",
   "channel": "test",
-  "version": 2,
+  "version": 5,
   "rows": [
-    {"WeaponID": "bruum", "MagazineSize": 26, "ReserveAmmo": 200},
-    {"WeaponID": "rifle", "MagazineSize": 28, "ReserveAmmo": 220}
+    {"WeaponID": 1, "WeaponName": "weapon.rifle.name", "WeaponDesc": "weapon.rifle.desc", "WeaponIcon": "weapon.rifle", "MagazineSize": 28, "ReserveAmmo": 220},
+    {"WeaponID": 2, "WeaponName": "weapon.bruum.name", "WeaponDesc": "weapon.bruum.desc", "WeaponIcon": "weapon.bruum", "MagazineSize": 26, "ReserveAmmo": 200}
   ]
 }

@@ -2,7 +2,7 @@
   "schema": 1,
   "table": "text",
   "channel": "test",
-  "version": 7,
+  "version": 8,
   "languages": {
     "en": {
       "menu.tagline": "Prop hunt · medieval market",
@@ -748,7 +748,17 @@
       "roundResult.table.caption": "Your side: place / player / round points. Select a row for details.",
       "roundResult.table.out": "Eliminated",
       "roundResult.table.selfOut": "You / eliminated",
-      "showcase.placeholder": "Placeholder images and text. Portraits and stories await approval."
+      "showcase.placeholder": "Placeholder images and text. Portraits and stories await approval.",
+      "hud.tip.reload": "Reload",
+      "CHARACTER_010": "Weapon probe",
+      "SKILL_013": "Probe: rifle",
+      "SKILL_014": "Automatic ray from the character weapon, one round a shot.",
+      "SKILL_015": "Probe: shotgun",
+      "SKILL_016": "A fan of pellets from the same magazine: several hits at once.",
+      "SKILL_017": "Probe: shell",
+      "SKILL_018": "A projectile from the same magazine.",
+      "weapon.probe.name": "Probe weapon",
+      "weapon.probe.desc": "One magazine shared by every skill of the character."
     },
     "ko": {
       "menu.tagline": "",
@@ -1494,7 +1504,17 @@
       "roundResult.table.caption": "",
       "roundResult.table.out": "",
       "roundResult.table.selfOut": "",
-      "showcase.placeholder": ""
+      "showcase.placeholder": "",
+      "hud.tip.reload": "",
+      "CHARACTER_010": "",
+      "SKILL_013": "",
+      "SKILL_014": "",
+      "SKILL_015": "",
+      "SKILL_016": "",
+      "SKILL_017": "",
+      "SKILL_018": "",
+      "weapon.probe.name": "",
+      "weapon.probe.desc": ""
     },
     "ru": {
       "menu.tagline": "Прятки предметов · средневековый рынок",
@@ -2240,7 +2260,17 @@
       "roundResult.table.caption": "Своя сторона: место / игрок / очки раунда. Выберите строку для разбивки.",
       "roundResult.table.out": "Выбыл",
       "roundResult.table.selfOut": "Вы / выбыли",
-      "showcase.placeholder": "Временные изображения и тексты. Портреты и предыстории ожидают утверждения."
+      "showcase.placeholder": "Временные изображения и тексты. Портреты и предыстории ожидают утверждения.",
+      "hud.tip.reload": "Перезарядка",
+      "CHARACTER_010": "Проверка оружия",
+      "SKILL_013": "Проба: винтовка",
+      "SKILL_014": "Автоматический луч из оружия персонажа, патрон на выстрел.",
+      "SKILL_015": "Проба: дробовик",
+      "SKILL_016": "Веер дробин из того же магазина: несколько попаданий сразу.",
+      "SKILL_017": "Проба: снаряд",
+      "SKILL_018": "Снаряд из того же магазина.",
+      "weapon.probe.name": "Проверочное оружие",
+      "weapon.probe.desc": "Один магазин на все навыки персонажа."
     }
   }
 }

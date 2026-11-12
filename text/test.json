@@ -2,7 +2,7 @@
   "schema": 1,
   "table": "text",
   "channel": "test",
-  "version": 9,
+  "version": 10,
   "languages": {
     "en": {
       "menu.tagline": "Prop hunt · medieval market",
@@ -761,7 +761,15 @@
       "weapon.probe.desc": "One magazine shared by every skill of the character.",
       "CHARACTER_011": "Passive probe",
       "error.contentLoadFailed": "Could not load the map resources, you left the match.",
-      "lobby.preparationFailed.content": "Match cancelled: the host could not load the map resources. Start it again."
+      "lobby.preparationFailed.content": "Match cancelled: the host could not load the map resources. Start it again.",
+      "mission.choice.title": "Mission choice",
+      "mission.choice.subtitle": "Choose one mission of {count}",
+      "mission.choice.button": "Choose",
+      "mission.choice.left": "{s} s",
+      "MISSIONTITLE_001": "Random Mission",
+      "mission.random.seconds": "{current} / {target} s",
+      "mission.random.count": "{current} / {target}",
+      "mission.random.done": "Completed"
     },
     "ko": {
       "menu.tagline": "",
@@ -1520,7 +1528,15 @@
       "weapon.probe.desc": "",
       "CHARACTER_011": "",
       "error.contentLoadFailed": "맵 리소스를 불러오지 못해 매치에서 나갔습니다.",
-      "lobby.preparationFailed.content": "매치가 취소되었습니다: 호스트가 맵 리소스를 불러오지 못했습니다. 다시 시작하세요."
+      "lobby.preparationFailed.content": "매치가 취소되었습니다: 호스트가 맵 리소스를 불러오지 못했습니다. 다시 시작하세요.",
+      "mission.choice.title": "미션 선택",
+      "mission.choice.subtitle": "미션 {count}개 중 하나를 선택하세요",
+      "mission.choice.button": "선택",
+      "mission.choice.left": "{s}초",
+      "MISSIONTITLE_001": "랜덤미션",
+      "mission.random.seconds": "{current} / {target}초",
+      "mission.random.count": "{current} / {target}",
+      "mission.random.done": "완료"
     },
     "ru": {
       "menu.tagline": "Прятки предметов · средневековый рынок",
@@ -2279,7 +2295,15 @@
       "weapon.probe.desc": "Один магазин на все навыки персонажа.",
       "CHARACTER_011": "",
       "error.contentLoadFailed": "Не удалось загрузить ресурсы карты, вы вышли из матча.",
-      "lobby.preparationFailed.content": "Матч отменён: хост не смог загрузить ресурсы карты. Запустите его снова."
+      "lobby.preparationFailed.content": "Матч отменён: хост не смог загрузить ресурсы карты. Запустите его снова.",
+      "mission.choice.title": "Выбор миссии",
+      "mission.choice.subtitle": "Выберите одну миссию из {count}",
+      "mission.choice.button": "Выбрать",
+      "mission.choice.left": "{s} с",
+      "MISSIONTITLE_001": "Случайная миссия",
+      "mission.random.seconds": "{current} / {target} с",
+      "mission.random.count": "{current} / {target}",
+      "mission.random.done": "Выполнено"
     }
   }
 }

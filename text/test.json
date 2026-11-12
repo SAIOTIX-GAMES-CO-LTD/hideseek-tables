@@ -2,7 +2,7 @@
   "schema": 1,
   "table": "text",
   "channel": "test",
-  "version": 8,
+  "version": 9,
   "languages": {
     "en": {
       "menu.tagline": "Prop hunt · medieval market",
@@ -758,7 +758,10 @@
       "SKILL_017": "Probe: shell",
       "SKILL_018": "A projectile from the same magazine.",
       "weapon.probe.name": "Probe weapon",
-      "weapon.probe.desc": "One magazine shared by every skill of the character."
+      "weapon.probe.desc": "One magazine shared by every skill of the character.",
+      "CHARACTER_011": "Passive probe",
+      "error.contentLoadFailed": "Could not load the map resources, you left the match.",
+      "lobby.preparationFailed.content": "Match cancelled: the host could not load the map resources. Start it again."
     },
     "ko": {
       "menu.tagline": "",
@@ -1514,7 +1517,10 @@
       "SKILL_017": "",
       "SKILL_018": "",
       "weapon.probe.name": "",
-      "weapon.probe.desc": ""
+      "weapon.probe.desc": "",
+      "CHARACTER_011": "",
+      "error.contentLoadFailed": "맵 리소스를 불러오지 못해 매치에서 나갔습니다.",
+      "lobby.preparationFailed.content": "매치가 취소되었습니다: 호스트가 맵 리소스를 불러오지 못했습니다. 다시 시작하세요."
     },
     "ru": {
       "menu.tagline": "Прятки предметов · средневековый рынок",
@@ -2270,7 +2276,10 @@
       "SKILL_017": "Проба: снаряд",
       "SKILL_018": "Снаряд из того же магазина.",
       "weapon.probe.name": "Проверочное оружие",
-      "weapon.probe.desc": "Один магазин на все навыки персонажа."
+      "weapon.probe.desc": "Один магазин на все навыки персонажа.",
+      "CHARACTER_011": "",
+      "error.contentLoadFailed": "Не удалось загрузить ресурсы карты, вы вышли из матча.",
+      "lobby.preparationFailed.content": "Матч отменён: хост не смог загрузить ресурсы карты. Запустите его снова."
     }
   }
 }

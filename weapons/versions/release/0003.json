@@ -1,0 +1,12 @@
+{
+  "schema": 3,
+  "table": "weapons",
+  "channel": "release",
+  "version": 3,
+  "rows": [
+    {"WeaponID": "2", "WeaponName": "weapon.bruum.name", "WeaponDesc": "weapon.bruum.desc", "WeaponIcon": "weapon.bruum", "MagazineSize": 26, "ReserveAmmo": 200},
+    {"WeaponID": "3", "WeaponName": "weapon.probe.name", "WeaponDesc": "weapon.probe.desc", "WeaponIcon": "", "MagazineSize": 30, "ReserveAmmo": 120},
+    {"WeaponID": "4", "WeaponName": "WEAPON_001", "WeaponDesc": "WEAPON_002", "WeaponIcon": "weapon.potato", "MagazineSize": 3, "ReserveAmmo": 0},
+    {"WeaponID": "혀", "WeaponName": "weapon.rifle.name", "WeaponDesc": "weapon.rifle.desc", "WeaponIcon": "weapon.rifle", "MagazineSize": 28, "ReserveAmmo": 220}
+  ]
+}
